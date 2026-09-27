@@ -1,0 +1,16 @@
+# Phase 1: classification backend
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+presidio-analyzer==2.2.358
+spacy==3.7.5
+pydantic==2.10.4
+
+# Phase 2: egress interceptor
+mitmproxy==11.0.2
+httpx==0.28.1
+
+# Phase 3: dashboard
+streamlit==1.41.1
+streamlit-autorefresh==1.0.1
+pandas==2.2.3
+plotly==5.24.1
